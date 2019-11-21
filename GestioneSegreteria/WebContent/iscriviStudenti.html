@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Iscrivi Studenti</title>
+	<link rel="stylesheet" href="css/iscriviStudenti.css" type="text/css" />
+</head>
+<body>
+	<header><h1>Iscrivi uno Studente</h1></header>
+	<form id="modulo1" method="post" action="inviaDatiStudente">
+		<div id="singleModule">
+			<label for="matricola">Matricola</label>
+			<div >
+				<input  name="matricola" type="text" value="Matricola" />
+			</div>
+		</div>
+		<div id="singleModule">
+			<label for="nome">Nome</label>
+			<div>
+				<input name="nome" type="text" value="Nome" />
+			</div>
+		</div>
+		<div id="singleModule">
+			<label for="nome">Cognome</label>
+			<div>
+				<input  name="cognome" type="text" value="Cognome" />
+			</div>
+		</div>
+		<div id="singleModule">
+			<label class="control-label col-sm-2" for="dataNascita">Data di nascita</label>
+			<div>
+				<input name="dataNascita" type="date" value="Data Nascita" />
+			</div>
+		</div>
+		<div id="singleModule">
+			<label for="password">Password</label>
+			<div>
+				<input name="password" type="password" />
+			</div>
+		</div>
+		<div id="singleModule">
+			<label for="password2">Conferma Password</label>
+			<div>
+				<input name="password2" type="password" />
+			</div>
+		</div>
+		<div id="singleModule">
+			<label for="dipartimento">Dipartimento</label>
+			<div>
+				<select id="dip" name="dipartimento">
+					<option>---</option>
+					<option value="MatInf">Matematica e Informatica</option>					
+				</select>
+			</div>
+		</div>
+		<div id="singleModule">
+			<label for="corsoDiLaurea">Corso di Laurea</label>
+			<div>
+				<select id="cLaurea" name="corsoDiLaurea" disabled=true>
+					<option>---</option>
+				</select>
+			</div>
+		</div>
+		<div id="singleModule">
+			<label for="scuola">Scuola di Diploma</label>
+			<div>
+				<select class="form-control" name="scuola">
+					<option>---</option>					
+				</select>
+			</div>
+		</div>
+		<input type="submit" /> 
+		<input type="reset" />
+	</form>
+</body>
+</html>

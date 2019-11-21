@@ -3,34 +3,71 @@
 	<head>
 		<meta charset="ISO-8859-1">
 		<title>Pagina di Gestione Segreteria</title>
+		<LINK rel="stylesheet" href="css/index.css" type="text/css" />
 	</head>
 	
 	<body>
-		<a href="https://www.unical.it"><img src="images/logo-unical.png"></a>
-		<h1>Portale segreteria studenti</h1>
-		<h2>Gestisci gli studenti</h2>	
+		<header>
+			<aside>
+				<figure>
+					<a href="https://www.unical.it"><img src="images/logo-unical.png" width="1000"></a>
+					<figcaption>Università della Calabria</figcaption>
+				</figure>
+			</aside>
+			<h1>Portale segreteria studenti</h1>
+			<h2 class="intestazione">Gestisci gli studenti</h2>
+		</header>	
 		<p>
 			Benvenuto nella pagina di <strong>gestione segreteria.</strong><br>
 			Naviga tra <u>queste pagine</u> per vedere 
 			tutte le <i>funzionalità offerte</i> dal sito delle segreterie.
 		</p>
-		<p>
-			Utilizza il menu in basso per navigare:
-			<ul>
-				<li>
-					Studenti
-					<ol>
-						<li><a href="elencoStudenti.html">Elenco studenti</a></li>
-						<li><a href="gestioneStudenti/iscriviStudenti.html">Iscrivi uno studente</a></li>
-					</ol>
-				</li>
-				<li>Corsi</li>
-				<li>Corsi di laurea</li>
-				<li>Dipartimenti</li>
-			</ul>
-		</p>
-		<p>
-			Ti auguriamo una felice navigazione!
-		</p>
+		<section>
+			<nav>
+				<p>	
+					<div>
+						<p>
+							Utilizza il menu in basso per navigare:
+						</p>
+					</div>
+					<ul>
+						<li>
+							Studenti
+							<ol>
+								<li><a href="elencoStudenti.html">Elenco studenti</a></li>
+								<li><a href="gestioneStudenti/iscriviStudenti.html">Iscrivi uno studente</a></li>
+							</ol>
+						</li>
+						<li>Corsi</li>
+						<li>Corsi di laurea</li>
+						<li>Dipartimenti</li>
+					</ul>
+				</p>
+			</nav>	
+		</section>
+		<section>
+			<nav>
+				<ul>
+					<li>Chi siamo</li>
+					<li>Contattaci</li>
+				</ul>
+			</nav>
+		</section>
+		<section>
+			<article>
+				<h3 id="art1" class="intestazione">Dicono di noi</h3>
+				<p>La segreteria è un servizio di riferimento che serve per...</p>
+			</article>
+			<article>
+				<h3 id="art2" class="intestazione">Centro ICT di Ateneo</h3>
+				<p>Dalla pagina accessibile da <a href="http://www.unical.it">questo link</a></p><br>
+			</article>
+			<footer>
+				<a href = "http://www.unical.it">Clicca qui per accedere al sito dell'Unical</a><br>
+				<p>
+					Ti auguriamo una felice navigazione!
+				</p>
+			</footer>
+		</section>
 	</body>
 </html>
