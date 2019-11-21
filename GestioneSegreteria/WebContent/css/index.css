@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+h1 {
+	color: red;
+	text-shadow: 3px 1px blue;
+}
+
+p {
+	color: green;
+}
+
+.intestazione {
+	text-align: left;
+}
+
+article {
+	position: absolute;
+	width: 50%;
+}
+
+article+article {
+	position: relative;
+	left: 50%;
+}
