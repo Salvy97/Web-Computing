@@ -3,26 +3,31 @@
 	<head>
 		<meta charset="ISO-8859-1">
 		<title>Elenco studenti</title>
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	</head>
 	
 	<body>
 		<h1>Ecco l'elenco degli studenti della nostra Università:</h1>
-		<table border=1>
-			<tr>
-				<th>Matricola</th>
-				<th>Nome</th>
-				<th>Cognome</th>
-			</tr>
-			<tr>
-				<td>123456</td>
-				<td>Ciccio</td>
-				<td>Rossi</td>
-			</tr>
-			<tr>
-				<td>321123</td>
-				<td>Franco</td>
-				<td>Bianchi</td>
-			</tr>
-		</table>
+		<div class="table-responsive">
+			<table class="table">
+				<tr class="success">
+					<th>Matricola</th>
+					<th>Nome</th>
+					<th>Cognome</th>
+				</tr>
+				<tr class="active">
+					<td>123456</td>
+					<td>Ciccio</td>
+					<td>Rossi</td>
+				</tr>
+				<tr class="active">
+					<td>321123</td>
+					<td>Franco</td>
+					<td>Bianchi</td>
+				</tr>
+			</table>
+		</div>
 	</body>
 </html>
